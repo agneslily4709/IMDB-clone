@@ -13,7 +13,8 @@ const Authenticate = async (req, res, next) => {
 
         const rootUser = await UserModel.findOne({ _id: verrifyToken._id});
         if (!rootUser) return res.status(404).json({ message: "User not found" });
-
+        req.userRole = rootUser.role;
+        
         req.token = token;
         req.rootUser = rootUser;
         req.rootUserId = rootUser._id;
