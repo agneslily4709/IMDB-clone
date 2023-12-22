@@ -29,7 +29,7 @@ useEffect(() => {
    <>
    <div className="my-container">
         <div className='profile-details'>
-        <h3 className='profile-title'>Profile</h3>
+            <p className='profile-title fs-3'>Profile</p>
             <p className='profile-item'>Name : {userData.fullName}</p>
             <p className='profile-item'>Email : {userData.email}</p>
             <p className='profile-item'>Role : {userData.role}</p>

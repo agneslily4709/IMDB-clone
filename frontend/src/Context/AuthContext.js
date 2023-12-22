@@ -5,13 +5,16 @@ const AuthContext = createContext(null)
 const AuthDataContext = ({children}) => {
 
         const [userState,setUserState]  = useState(false)  
+        const [userRole,setUserRole] = useState("")
         useEffect(()=>{
                 if(Cookies.get("jwtoken")) setUserState(true)
+                if(Cookies.get("userRole")) setUserRole(atob(Cookies.get("userRole")))
         },[])
         const data = {
                 name:"Agnes Lily",
                 userState,
-                setUserState
+                setUserState,
+                userRole
         }
         return (
                 <AuthContext.Provider value={data}>

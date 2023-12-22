@@ -34,6 +34,7 @@ const Signin = () => {
                 if(response.status === 200 ){
                         toast.success("SignIn Successful",{ position: toast.POSITION.BOTTOM_RIGHT, autoClose: 1000})
                         Cookies.set("jwtoken",authToken,{path:"/"})
+                        Cookies.set("userRole",btoa(response.data.role))
                         setUserState(true)
                         setTimeout(()=>navigate("/"),2000)
                 }
