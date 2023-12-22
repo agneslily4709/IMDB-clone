@@ -61,13 +61,13 @@ const movieSchema = new mongoose.Schema({
         },
         producer: {
             type: mongoose.Schema.Types.ObjectId,
-            ref: 'Producer',
+            ref: 'producer',
             required: true,
         },
         actors: [
             {
                 type: mongoose.Schema.Types.ObjectId,
-                ref: 'Actor',
+                ref: 'actor',
             },
         ]
 });
@@ -122,3 +122,20 @@ const actorSchema = new mongoose.Schema({
 });
 
 export const ActorModel = mongoose.model("actor",actorSchema)
+
+const watchlistSchema = new mongoose.Schema({
+        userId: {
+          type: mongoose.Schema.Types.ObjectId,
+          ref: 'user',
+          required: true,
+        },
+        movies: [
+        {
+              type: mongoose.Schema.Types.ObjectId,
+              ref: 'movie', 
+              required: true,
+          }
+        ],
+      });
+      
+export const WatchlistModel = mongoose.model('Watchlist', watchlistSchema);
