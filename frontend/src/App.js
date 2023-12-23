@@ -9,6 +9,7 @@ import { AuthDataContext } from "./Context/AuthContext";
 import "./Styles/styles.css"
 import DisplayMovie from "./Pages/DisplayMovie";
 import WatchList from "./Pages/WatchList";
+import AddMovie from "./Pages/AddMovie";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                                                 <Route exact path="/signout" element={<Signout />} />
                                                 <Route exact path="/profile" element={<Profile />} />
                                                 <Route exact path="/displayMovie/:id" element={<DisplayMovie/>}/>
+                                                <Route exact path="/addMovie" element={<AddMovie/>}/>
                                                 <Route exact path="/watchList" element={<WatchList/>}/>
                                         </Routes>
                                 </BrowserRouter>

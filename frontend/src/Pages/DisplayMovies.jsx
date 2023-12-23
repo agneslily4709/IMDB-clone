@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState,useEffect, useContext} from 'react'
 import '../Styles/styles.css'
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
@@ -6,14 +6,14 @@ import 'react-toastify/dist/ReactToastify.css';
 import { SERVER_URL } from '../Utils/globals';
 import Cookies from 'js-cookie';
 import { useNavigate } from 'react-router-dom';
+import { AuthContext } from '../Context/AuthContext';
 
 const DisplayMovies = () => {
         const navigate = useNavigate()
         const [movies,setMovies] = useState([]);
-        let userRole = "user"
-        
+        const {userRole} = useContext(AuthContext)        
         const token = Cookies.get("jwtoken")
-
+        
         const handleEdit = () => {
                 console.log(`Editing`);
         };
@@ -57,15 +57,18 @@ const addToWatchlist = async (movieId) => {
                         <div className="movie-card" key={id}>
                         <p className="movie-title fs-4">{movie.name}</p>
                         <img className='movie-poster' src={movie.poster} alt={`${movie.poster}Poster`} />
-                        {userRole === 'contributor' ? (
+                        {userRole === 'ontributor' && (
                           <div className="role-buttons">
                             <button className='btn btn-primary' onClick={handleEdit}>Edit</button>
                             <button className='btn btn-danger' onClick={handleDelete}>Delete</button>
                           </div>
-                        ):<div className='role-buttons'>
-                                <button className='btn btn-success mx-2' onClick={() => navigate(`/displayMovie/${movie._id}`)}>View</button>
-                                <button className='btn btn-warning mx-2' onClick={()=>addToWatchlist(movie._id)}>WatchList +</button>
-                                </div>}
+        )}
+        {userRole === 'user' && (
+                        <div className='role-buttons'>
+                        <button className='btn btn-success mx-2' onClick={() => navigate(`/displayMovie/${movie._id}`)}>View</button>
+                        <button className='btn btn-warning mx-2' onClick={()=>addToWatchlist(movie._id)}>WatchList +</button>
+                        </div>
+        )}
                       </div>
                 )
         })}
