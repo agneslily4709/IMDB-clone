@@ -140,3 +140,8 @@
         height: 100px;
         width: 100px;
 }
+.dropdown-menu {
+        overflow: hidden;
+        overflow-y: auto;
+        max-height: calc(100vh - 150px);
+      }
