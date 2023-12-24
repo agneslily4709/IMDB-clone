@@ -1,0 +1,140 @@
+[
+        {
+          "name": "Inception",
+          "yearOfRelease": 2010,
+          "plot": "A thief who enters the dreams of others to steal their secrets.",
+          "poster": "inception_poster.jpg"
+        },
+        {
+          "name": "The Shawshank Redemption",
+          "yearOfRelease": 1994,
+          "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+          "poster": "shawshank_redemption_poster.jpg"
+        },
+        {
+          "name": "The Godfather",
+          "yearOfRelease": 1972,
+          "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+          "poster": "godfather_poster.jpg"
+        },
+        {
+          "name": "Pulp Fiction",
+          "yearOfRelease": 1994,
+          "plot": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+          "poster": "pulp_fiction_poster.jpg"
+        },
+        {
+          "name": "The Matrix",
+          "yearOfRelease": 1999,
+          "plot": "A computer hacker learns about the true nature of his reality and his role in the war against its controllers.",
+          "poster": "matrix_poster.jpg"
+        },
+        {
+          "name": "Forrest Gump",
+          "yearOfRelease": 1994,
+          "plot": "The presidencies of Kennedy through Nixon seen through the eyes of an intellectually disabled man.",
+          "poster": "forrest_gump_poster.jpg"
+        },
+        {
+          "name": "The Dark Knight",
+          "yearOfRelease": 2008,
+          "plot": "A vigilante known as Batman sets out to dismantle the remaining criminal organizations that plague the city streets.",
+          "poster": "dark_knight_poster.jpg"
+        },
+        {
+          "name": "Schindler's List",
+          "yearOfRelease": 1993,
+          "plot": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+          "poster": "schindlers_list_poster.jpg"
+        },
+        {
+          "name": "Fight Club",
+          "yearOfRelease": 1999,
+          "plot": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+          "poster": "fight_club_poster.jpg"
+        },
+        {
+          "name": "The Silence of the Lambs",
+          "yearOfRelease": 1991,
+          "plot": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+          "poster": "silence_of_the_lambs_poster.jpg"
+        },
+        {
+          "name": "Goodfellas",
+          "yearOfRelease": 1990,
+          "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito.",
+          "poster": "goodfellas_poster.jpg"
+        },
+        {
+          "name": "The Lord of the Rings: The Fellowship of the Ring",
+          "yearOfRelease": 2001,
+          "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+          "poster": "lotr_fellowship_poster.jpg"
+        },
+        {
+          "name": "The Social Network",
+          "yearOfRelease": 2010,
+          "plot": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business.",
+          "poster": "social_network_poster.jpg"
+        },
+        {
+          "name": "The Shawshank Redemption",
+          "yearOfRelease": 1994,
+          "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+          "poster": "shawshank_redemption_poster.jpg"
+        },
+        {
+          "name": "The Godfather: Part II",
+          "yearOfRelease": 1974,
+          "plot": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+          "poster": "godfather_part_2_poster.jpg"
+        },
+        {
+          "name": "Inglourious Basterds",
+          "yearOfRelease": 2009,
+          "plot": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+          "poster": "inglourious_basterds_poster.jpg"
+        },
+        {
+          "name": "The Departed",
+          "yearOfRelease": 2006,
+          "plot": "An undercover cop and a mole in the police force attempt to identify each other while infiltrating an Irish gang in South Boston.",
+          "poster": "departed_poster.jpg"
+        },
+        {
+          "name": "The Usual Suspects",
+          "yearOfRelease": 1995,
+          "plot": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
+          "poster": "usual_suspects_poster.jpg"
+        },
+        {
+          "name": "The Lion King",
+          "yearOfRelease": 1994,
+          "plot": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes get him into trouble.",
+          "poster": "lion_king_poster.jpg"
+        },
+        {
+          "name": "Avatar",
+          "yearOfRelease": 2009,
+          "plot": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+          "poster": "avatar_poster.jpg"
+        },
+        {
+          "name": "Gladiator",
+          "yearOfRelease": 2000,
+          "plot": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+          "poster": "gladiator_poster.jpg"
+        },
+        {
+          "name": "Titanic",
+          "yearOfRelease": 1997,
+          "plot": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+          "poster": "titanic_poster.jpg"
+        },
+        {
+          "name": "Braveheart",
+          "yearOfRelease": 1995,
+          "plot": "Scottish rebel William Wallace leads a revolt against the tyrannical English king in the 13th century.",
+          "poster": "braveheart_poster.jpg"
+        }      
+]      
